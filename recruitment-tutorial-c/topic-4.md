@@ -7,7 +7,7 @@
 - 检查是否保存成功
 
 
-####　提取有效信息
+#### 提取有效信息
 
 首先生成一个拉勾爬虫
 
@@ -131,15 +131,15 @@ lagou.py
 ```python
 def parse(self, response):
 
-		# 解析返回内容
-		res = json.loads(response.body_as_unicode())
-		try:
-			lst_result = res['content']['positionResult']['result']
-		except:
-			print(res)
-			return
+	# 解析返回内容
+	res = json.loads(response.body_as_unicode())
+	try:
+		lst_result = res['content']['positionResult']['result']
+	except:
+		print(res)
+		return
 
-		# ...
+	# ...	
 
 ```
 

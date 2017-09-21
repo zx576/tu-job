@@ -11,7 +11,7 @@
 
 参考： [scrapy配置mongodb](http://crossincode.com/school/lesson/167/)
 
-这里详细提一下 scrapy 配置 mysql. 并且在正式爬取之前，我们先编写一些测试代码检测是否成功连接数据库。
+这里详细提一下 scrapy 配置 mysql。 并且在正式爬取之前，我们先编写一些测试代码检测是否成功连接数据库。
 
 
 ##### 1、配置基本信息
@@ -48,7 +48,7 @@ ROBOTSTXT_OBEY = False
 
 ##### 2、编写一个简单的数据模型
 
-这里我们使用 **peewee** 取代传统的 scrapy items 来编写数据映射,还未了解 peewee 的请点击 [peewee document](http://docs.peewee-orm.com/en/latest/)
+这里我们使用 **peewee** 取代传统的 scrapy items 来编写数据映射，还未了解 peewee 的请点击 [peewee document](http://docs.peewee-orm.com/en/latest/)
 
 
 items.py
